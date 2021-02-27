@@ -7,7 +7,6 @@ import Info from "./components/OrderItem/Info";
 import Order from "./components/Order/Order";
 import OrderDetail from "./components/OrderDetail/OrderDetail";
 
-//
 import InfoComplete from "./components/CompleteOrderItem/Info";
 import OrderComplete from "./components/CompleteOrder/Order";
 import OrderDetailComplete from "./components/CompleteOrderDetail/OrderDetail";
