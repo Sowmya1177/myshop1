@@ -1,0 +1,106 @@
+.Boximage{
+    height: 500px;
+    width: auto;
+    float: right;
+  }
+  .boxInfos{
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+
+  }
+  .TopDiv{
+    display: flex;
+    margin-top: 15%;
+  }
+  
+  .gift{
+    width: 100px;
+    height: 100px;
+  }
+  .giftstyling{
+    border-bottom: 2px solid orangered;
+    padding: 23px;
+  }
+  .giftstylings{
+    padding: 23px;
+  }
+  .middledivdetail{
+    display: flex;
+    margin-top: 2%;
+    padding-left: 5%;
+  }
+  .orderdetail{
+    border-bottom: 2px solid green;
+    padding: 23px;
+    padding-right: 5%;
+  }
+  .orderdetails{
+    padding: 23px;
+    border-bottom: 2px solid whitesmoke;
+    padding-right: 5%;
+  }
+  .boldtext{
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    }
+    .simpletext{
+    padding: 5px;
+    color: #525659;
+    }
+    .orderBold{
+   
+    color: #525659;
+    padding: 5px;
+    font-weight: bold;
+    padding-left: 20px;
+      
+    } 
+    .orderblack{
+      color: black;
+      padding: 5px;
+      padding-left: 20px;
+    }
+    .ordersimple{
+      color: #525659;
+      padding: 5px;
+      padding-left: 20px;
+    }
+    .TopTitle{
+      color: black;
+      padding-left: 20px;
+      padding-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .subheadingTitle{
+      color: black;
+      padding-left: 20px;
+
+      font-size: 18px;
+    }
+    .genericdiv {
+      margin-top: 20px;
+    }
+    .AcceptButton{
+      width: 200px;
+      margin-left: 70px;
+      margin-bottom: 20px;
+      background-color: #0246BE;
+      color: white;
+      height: 37px;
+      border-radius: 5px;
+      border: none;
+    }
+    .CAncelButton{
+      width: 200px;
+      margin-left: 70px;
+      margin-bottom: 20px;
+      background-color: #F1F3F4;
+      color: black;
+      height: 37px;
+      border-radius: 5px;
+      border: none ;
+    }

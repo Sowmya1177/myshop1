@@ -1,0 +1,45 @@
+.image{
+    height: 200px;
+    width: auto;
+    float: left;
+  }
+  .box{
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 1px 1px 2px 1px #BFBFBF;
+  }
+  .detail{
+margin-top: 10%;
+margin-left: 25%;
+
+  }
+ 
+  .boxTitle{
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%; 
+    color: #0246BE;
+  }
+  .firstHead{
+    font-weight: bold;
+    color: black;
+  }
+  .secondHead{
+padding-right: 30px;
+color: black;
+  }
+  .thirdHead{
+color: lightgray;
+  }
+  .fourHead{
+line-height: 1.5;
+color: black;
+  }
+  .fiveHead{
+padding-right: 70px;
+color: black;
+  }
+  .spanHead{
+padding-right: 55px;
+  }
