@@ -76,7 +76,7 @@ export default class CustomNavbar extends Component {
               {/* <NavItem
               > */}      
                 <NavDropdown eventKey={3} title="Order Status" id="basic-nav-dropdown">
-                  <MenuItem eventKey="1" componentClass={Link} href="/" to="/RecentOrder" style={{ backgroundColor: 'lightblue' }}>Delivered Item</MenuItem>
+                  <MenuItem eventKey="1" componentClass={Link} href="/" to="/RecentOrders" style={{ backgroundColor: 'lightblue' }}>Delivered Item</MenuItem>
                   <MenuItem eventKey="1" componentClass={Link} href="/" to="/RecentOrder" style={{ backgroundColor: 'lightblue' }}>In Progress Item</MenuItem>
                 </NavDropdown>
               {/* </NavItem> */}

@@ -11,12 +11,12 @@ class Info extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        staticdata: [{image:iphone, date: 'Expected to ship: 30-March 2020', item: 'Apple Iphone 12', description: 'Gray   64GB', number: '12365478120',AT:'AT&T Unlimited Extra' },
-        {image:gift, date: 'Expected to ship: 30-March 2020', item: 'Apple Iphone XR', description: 'Balck   128GB', number: '1236558120',AT:'AT&T Unlimited Extra' }],
+        staticdata: [{image:iphone, date: 'Shipped Date: Mon, Apr 29 2020', item: 'Apple Iphone 12', description: 'Gray   64GB', number: '12365478120',AT:'AT&T Unlimited Extra' },
+        {image:gift, date: 'Shipped Date: Mon, Apr 29 2020', item: 'Apple Iphone XR', description: 'Balck   128GB', number: '1236558120',AT:'AT&T Unlimited Extra' }],
     }
 }
   navigateto = () => {
-    window.location = `/OrderDetail/${'147852'}`
+    window.location = `/OrderDetails/${'147852'}`
 }
 componentDidMount() {
   let id = this.props.match.params.id;
@@ -47,10 +47,10 @@ componentDidMount() {
         <div className="giftstyling">
           <AiFillGift size={50}/>
         </div>
-        <div  className="giftstylings">
+        <div  className="giftstyling">
           <FiTruck size={45}/>
         </div>
-        <div className="giftstylings">
+        <div className="giftstyling">
           <AiOutlineHome size={50}/>
         </div>
             </div>

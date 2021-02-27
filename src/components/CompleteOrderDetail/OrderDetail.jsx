@@ -12,10 +12,10 @@ class OrderDetail extends Component {
     super(props);
     this.state = {
       staticdata: [
-      {image:gift, date: 'Expected to ship: 30-March ,2020', item: 'Apple Iphone XR', description: 'Balck   128GB', number: '1236558120',AT:'AT&T Unlimited Extra' }],
-      orderdetail:{item:'Item Order 3',desc:'Do not forget to let us know if you accept the new ship date. We all cancel your order if we do not hear from you soon',
-   estdate:'Mon, 30-March ,2020',origdate:'Wed, 25-March , 2020',address:'1234 Peachtree Industrial Blvd Peachtree City , GA 67895-55662',
-  tracking:'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' }
+      {image:gift, date: 'Shipped Date: Mon, Apr 29 2020', item: 'Apple Iphone XR', description: 'Balck   128GB', number: '1236558120',AT:'AT&T Unlimited Extra' }],
+      orderdetail:{item:'Item Order 3',desc:'Thanks for the order! Please visit our site next time',
+   estdate:'Mon, Apr 29-2020',origdate:'Wed, Apr 19- Sat , May, 2019',address:'1234 Peachtree Industrial Blvd Peachtree City , GA 67895-55662',
+  tracking:'1236548789651325545' }
     }
 }
 componentDidMount() {
@@ -48,27 +48,24 @@ handlecancel = () =>{
           {/* {this.state.staticdata.map(x => */}
           <Row>
             <Col sm={12} xs={12}>
-              <p className="TopTitle">Heads up: The shiping date changed</p>
-              <p className="subheadingTitle">Before we can complete your order ,review the new data to confirm if you are OK with it</p>
+              <p className="TopTitle">Heads up: Your Order Delivered Successfully</p>
 
               <div className="middledivdetail">
                 <div className="orderdetail">
                   <AiFillGift size={60} />
                 </div>
-                <div className="orderdetails">
+                <div className="orderdetail">
                   <FiTruck size={55} />
                 </div>
-                <div className="orderdetails">
+                <div className="orderdetail">
                   <AiOutlineHome size={60} />
                 </div>
               </div>
               <div className="genericdiv">
                 <h5 className="orderBold">{orderdetail.item}</h5>
                 <h5 className="ordersimple">{orderdetail.desc}</h5>
-                <h5 className="orderblack">New estimated ship date:</h5>
+                <h5 className="orderblack">Shipped date:</h5>
                 <h5 className="ordersimple">{orderdetail.estdate} </h5>
-                <h5 className="orderblack">Original estimated ship date:</h5>
-                <h5 className="ordersimple">{orderdetail.origdate} </h5>
                 <h5 className="orderblack">Address:</h5>
                 <h5 className="ordersimple">{orderdetail.address} </h5>
                 <h5 className="orderblack">USPS tracking:</h5>
@@ -76,10 +73,6 @@ handlecancel = () =>{
 
 
               </div>
-              <button className="AcceptButton"
-              onClick={() => this.handleacceptp()}>Accept New Ship Date</button><br/>
-            <button className="CAncelButton"
-             onClick={() => this.handlecancel()}>Cancel Your Order</button>
             </Col>
           </Row>
           {/* )} */}

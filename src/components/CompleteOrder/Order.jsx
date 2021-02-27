@@ -8,7 +8,7 @@ class Order extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            staticdata: [{ Orderid: '123456', orderStatus: 'In Progress', Address: 'Street: 437 Lytton, City: Palo Alto, State: CA, Zip: 94301', Carrier: 'USPS' }],
+            staticdata: [{ Orderid: '123456', orderStatus: 'Delivered', Address: 'Street: 437 Lytton, City: Palo Alto, State: CA, Zip: 94301', Carrier: 'USPS' }],
         }
 
 
@@ -29,7 +29,7 @@ class Order extends Component {
         // })
     }
     navigateto = (id) => {
-        window.location = `/OrderItem/${id}`
+        window.location = `/OrderItems/${id}`
         // Switch to the next Component
     }
     render() {
